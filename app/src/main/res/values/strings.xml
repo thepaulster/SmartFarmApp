@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Farm</string>
+    <string name="chicken_sold_chicks_sold_eggs_sold">chicken sold  | chicks sold  | eggs sold</string>
+    <string name="expenses">chicken deaths |vaccines(sacks)| feeds(sacks)</string>
+    <string name="collect">eggs collected |eggs hatched | chicken vaccinated</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_chickenSold">Chicken Sold</string>
+    <string name="hint_chicksSold">Chicks Sold</string>
+    <string name="hint_eggsSold">Eggs Sold</string>
+    <string name="save">Save</string>
+    <string name="error_message_display">Enter Data</string>
+    <string name="error_message_email">Enter Valid Email</string>
+</resources>

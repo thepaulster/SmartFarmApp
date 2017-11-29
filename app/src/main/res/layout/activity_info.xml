@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="national.org.smartfarm.InfoActivity">
+
+    <ImageButton
+        android:id="@+id/income_add"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="29dp"
+        android:src="@mipmap/ic_income"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/expenses_add"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingLeft="25dp"
+        android:src="@mipmap/ic_expenses"
+        android:layout_alignTop="@+id/income_add"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <ImageButton
+        android:id="@+id/collections_add"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/income_add"
+        android:layout_alignStart="@+id/income_add"
+        android:layout_below="@+id/income_add"
+        android:layout_marginTop="75dp"
+        android:src="@mipmap/ic_collections" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/expenses_add"
+        android:layout_alignRight="@+id/expenses_add"
+        android:layout_below="@+id/collections_add"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse" />
+</RelativeLayout>

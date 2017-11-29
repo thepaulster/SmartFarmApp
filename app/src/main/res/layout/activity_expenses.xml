@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="national.org.smartfarm.ExpensesActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutChicksBought"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextChicksBought"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chicks Bought"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="#FFF" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutfeeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextfeeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Feeds"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="#FFF" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutvaccines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextvaccines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Vaccines"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="#FFF" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatexpensesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/save" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>

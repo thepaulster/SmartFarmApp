@@ -7,9 +7,74 @@ package national.org.smartfarm.model;
 public class FarmList {
 
     private String id;
+    private int chicksBoughtTT , vaccinesTT , feedsTT, chickenSoldTT, eggsSoldTT, chicksSoldTT, eggsCollectedTT, eggsHatchedTT;
 
     public int getChicksBought() {
         return ChicksBought;
+    }
+
+    public int getChicksBoughtTT() {
+        return chicksBoughtTT;
+    }
+
+    public void setChicksBoughtTT(int chicksBoughtTT) {
+        this.chicksBoughtTT = chicksBoughtTT;
+    }
+
+    public int getVaccinesTT() {
+        return vaccinesTT;
+    }
+
+    public void setVaccinesTT(int vaccinesTT) {
+        this.vaccinesTT = vaccinesTT;
+    }
+
+    public int getFeedsTT() {
+        return feedsTT;
+    }
+
+    public void setFeedsTT(int feedsTT) {
+        this.feedsTT = feedsTT;
+    }
+
+    public int getChickenSoldTT() {
+        return chickenSoldTT;
+    }
+
+    public void setChickenSoldTT(int chickenSoldTT) {
+        this.chickenSoldTT = chickenSoldTT;
+    }
+
+    public int getEggsSoldTT() {
+        return eggsSoldTT;
+    }
+
+    public void setEggsSoldTT(int eggsSoldTT) {
+        this.eggsSoldTT = eggsSoldTT;
+    }
+
+    public int getChicksSoldTT() {
+        return chicksSoldTT;
+    }
+
+    public void setChicksSoldTT(int chicksSoldTT) {
+        this.chicksSoldTT = chicksSoldTT;
+    }
+
+    public int getEggsCollectedTT() {
+        return eggsCollectedTT;
+    }
+
+    public void setEggsCollectedTT(int eggsCollectedTT) {
+        this.eggsCollectedTT = eggsCollectedTT;
+    }
+
+    public int getEggsHatchedTT() {
+        return eggsHatchedTT;
+    }
+
+    public void setEggsHatchedTT(int eggsHatchedTT) {
+        this.eggsHatchedTT = eggsHatchedTT;
     }
 
     public void setChicksBought(int chicksBought) {
@@ -64,6 +129,34 @@ public class FarmList {
     private int ChickenSold;
     private int ChicksSold;
     private int EggsSold;
+
+    public int getChicksHatched() {
+        return ChicksHatched;
+    }
+
+    public void setChicksHatched(int chicksHatched) {
+        ChicksHatched = chicksHatched;
+    }
+
+    public int getEggsCollected() {
+        return EggsCollected;
+    }
+
+    public void setEggsCollected(int eggsCollected) {
+        EggsCollected = eggsCollected;
+    }
+
+    public int getChickenVaccinated() {
+        return ChickenVaccinated;
+    }
+
+    public void setChickenVaccinated(int chickenVaccinated) {
+        ChickenVaccinated = chickenVaccinated;
+    }
+
+    private int ChicksHatched;
+    private int EggsCollected;
+    private  int ChickenVaccinated;
 
 
 
